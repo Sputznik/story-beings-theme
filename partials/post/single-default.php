@@ -15,23 +15,25 @@ $youtube_link = get_post_meta( $post->ID, 'youtube_link', true );
     </div>
   </div>
 <?php endif; ?>
-<div class="container content-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="post-title"><?php the_title();?></h1>
-      <div class="post-content"><?php the_content(); ?></div>
-      <?php if( has_category() ):?>
-        <div class="post-categories">
-          <h4>Theme:</h4>
-          <?php the_category( '', '', '' ); ?>
-        </div>
-      <?php endif;?>
-      <?php if( has_tag() ):?>
-        <div class="post-tags">
-          <h4>Tags:</h4>
-          <?php the_tags( '', '', '' ); ?>
-        </div>
-      <?php endif;?>
+<div class="content-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="post-title"><?php the_title();?></h1>
+        <div class="post-content"><?php the_content(); ?></div>
+        <?php if( has_category() ):?>
+          <div class="post-categories">
+            <h4>Theme:</h4>
+            <?php the_category( '', '', '' ); ?>
+          </div>
+        <?php endif;?>
+        <?php if( has_tag() ):?>
+          <div class="post-tags">
+            <h4>Tags:</h4>
+            <?php the_tags( '', '', '' ); ?>
+          </div>
+        <?php endif;?>
+      </div>
     </div>
   </div>
 </div>
