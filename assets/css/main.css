@@ -170,7 +170,7 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
 
 /* POST STORY */
 .post-story .sbct-thumbnail-bg i,
-.articles-grid3-modal .orbit-thumbnail-bg i {
+.articles-grid3-youtube .orbit-thumbnail-bg i {
   color: #ffffff;
   font-size: 100px;
   display: inline-block;
