@@ -169,7 +169,8 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
 }
 
 /* POST STORY */
-.post-story .sbct-thumbnail-bg i {
+.post-story .sbct-thumbnail-bg i,
+.articles-grid3-modal .orbit-thumbnail-bg i {
   color: #ffffff;
   font-size: 100px;
   display: inline-block;
@@ -252,6 +253,18 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
 .sbct-related-slider > button.slick-prev.slick-disabled,
 .sbct-related-slider > button.slick-next.slick-disabled{ cursor: auto; }
 
+/* GRID 3 YTUBE */
+.articles-grid3-youtube .orbit-thumbnail-bg{
+  background-color: #000000;
+}
+
+.articles-grid3-youtube .has-ytube-video {
+  cursor: pointer;
+}
+
+.articles-grid3-youtube .orbit-thumbnail-bg i {
+  font-size: 70px;
+}
 
 /* -------------------------- MEDIA QUERIES ------------------------- */
 @media(min-width: 768px) {
