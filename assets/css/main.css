@@ -69,6 +69,11 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
   outline: none;
 }
 
+.wrapper-margin {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 /* SINGLE POST TEMPLATE */
 #sbct-single-post {
   margin-top: 53px;
@@ -264,6 +269,22 @@ ul.slick-dots li button:hover, ul.slick-dots li.slick-active button{ background:
 
 .articles-grid3-youtube .orbit-thumbnail-bg i {
   font-size: 70px;
+}
+
+/* ARCHIVE */
+.archive.tag .page-title,
+.archive.category .page-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.orbit-posts-wrapper .orbit-btn-load-parent .load-more {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  background: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
 }
 
 /* -------------------------- MEDIA QUERIES ------------------------- */
