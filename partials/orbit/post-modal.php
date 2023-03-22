@@ -14,7 +14,7 @@
 
 ?>
 <?php if( $has_video ):?>
-  <div class="orbit-thumbnail-bg has-ytube-video" data-behaviour="sp-ytube-video" data-video="<?php _e( $video_id ); ?>" <?php _e( $background_img ); ?>>
+  <div class="orbit-thumbnail-bg has-ytube-video" data-behaviour="sp-ytube-video-dynamic" data-video="<?php _e( $video_id ); ?>" <?php _e( $background_img ); ?>>
     <i class="fa fa-play-circle-o" aria-hidden="true"></i>
   </div>
 <?php else:?>
